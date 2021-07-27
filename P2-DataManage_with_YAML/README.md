@@ -3,7 +3,7 @@
 딥러닝 모델을 구현하려면 데이터셋에 대한 정보, 모델에 대한 정보 등 매우 다양하며 구조적으로 복잡한 데이터를 처리해야한다. YAML이 제공하는 `.yaml` 파일과 **parser** 라이브러리의 `parse_yaml` 모듈을 사용하면 이 처리 과정이 꽤나 간단해진다.
 
 
-## Set parameters with argParse library
+## Set parameters with argparse library
 
 Python 코드에서 명령행 파싱을 하려면 표준 라이브러리의 **argparse** 모듈을 사용하면 된다.   
 기본 골격은 아래와 같다.
